@@ -1,3 +1,7 @@
+:root {
+    color: rgb(92, 92, 247);
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -32,9 +36,9 @@ main {
 aside {
     width: 800px;
     margin: 1em;
-    border: 1px solid rgb(92, 92, 247);
+    border: 1px solid var(color);
     padding: 1em;
-    background-color: rgb(92, 92, 247);
+    background-color: var(color);
     color: aqua;
     text-align: center;
 }
