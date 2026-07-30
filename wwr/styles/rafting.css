@@ -18,11 +18,13 @@ body {
     color: var(--accent1-color);
 }
 
-header,
-main,
-footer {
-    width: 840px;
-    margin: auto;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    padding: 10px 40px;
+    width: 100%;
 }
 
 h1,
@@ -37,9 +39,11 @@ section {
 
 nav a {
     color: var(--accent2-color);
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 10px 15px;
 }
 
-nav,
 p,
 section,
 article {
@@ -105,5 +109,74 @@ footer {
     width: 32px;
     height: 32px;
     object-fit: contain;
+}
 
+main section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.adventure-time {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-time img {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: 0;
+    display: block;
+    box-shadow: none;
+}
+
+.adventure-time figcaption {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+main section div h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(185, 185, 205);
+    padding: 10px 20px;
+    width: 100%;
+}
+
+header > img {
+    width: 70px;
+    height: auto;
+    float: none;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+
+nav {
+    background-color: transparent;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
 }
