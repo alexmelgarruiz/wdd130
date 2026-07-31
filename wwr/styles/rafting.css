@@ -18,15 +18,6 @@ body {
     color: var(--accent1-color);
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: darkblue;
-    padding: 10px 40px;
-    width: 100%;
-}
-
 h1,
 h2 {
     font-family: var(--heading-font);
