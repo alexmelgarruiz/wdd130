@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 2px solid rgb(42, 36, 25);
+    padding: 1rem;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: orange;
+    color: rgb(255, 250, 250);
+    font-weight: 1000;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+
+<body>
+
+    <header>
+        <h1>hWDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email Adress</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?.</label>
+                    <select name="browser" id="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Edge">Edge</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived.</label>
+                    <textarea name="feedback" id="feedback" rows="4"
+                      placeholder="Argentina Buenos Aires, Bolivia Santa Cruz, Chile Santiago."></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>♦Alex Franco Melgar Ruiz</p>
+    </footer>
+</body>
+
+
+</html>
