@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <h1>HTML QUIZ</h1>
+    <main>
+        <fieldset>
+            <form>
+                <label for="q1">1. What is the porpuse of the (< p>) tag?</label>
+                <input type="text" id="q1">
+
+                <label for="q2">2. How HTML is composed?</label>
+                <textarea name="HTML" id="q2"></textarea>
+
+                <label for="q3">3. How do you link a CSS file to HTML?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="correct">&lt;link rel="stylesheet" href="styles.css"&gt;</option>
+                    <option value="wrong_style">&lt;style src="styles.css"&gt;</option>
+                    <option value="wrong_script">&lt;script src="styles.css"&gt;</option>
+                    <option value="wrong_css">&lt;css link="styles.css"&gt;</option>
+                </select>
+
+                <label for="q4">4. What is the default font size of the root element in most
+                    browsers
+                    (inpixels)?</label>
+                <input type="number" name="q4" id="q4" placeholder="Enter an integer">
+
+
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+<footer>
+</footer>
+
+</html>
